@@ -1,0 +1,69 @@
+
+ul{
+    font-size:30px;
+    
+}
+nav ul li {
+  list-style-type: none;
+  display:flex;
+  float:center;
+  padding:20px;
+  color: #C24513;
+}
+nav ul {
+  display: flex;
+  padding-left: 320px;
+  font-color:#e47d7d;
+  border:#611e03;
+  float:center;
+  font-size: 50px;
+}
+nav ul li a:hover{
+    background-color:#d6991e;
+    color:black;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+
+.destinations-container {
+    margin: 5vh 20vw 0 20vw;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.destinations {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 70%;
+}
+
+.caption {
+    text-align: center;
+    margin: 2vh 4vw 2vh 4vw;
+    font-size: 1.25rem;
+    display: flex;
+    flex-flow: column;
+    font-style: italic;
+}
+
+/*Extra small devices*/
+@media screen and (min-width: 200px) and (max-width: 499px) {
+    .destinations-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+ }
+
+/*Small devices and Tablets*/
+@media screen and (min-width: 500px) and (max-width: 767.98px) {
+    .destinations-container {
+        margin: 5vh 10vw 0 10vw;
+    }
+ }
